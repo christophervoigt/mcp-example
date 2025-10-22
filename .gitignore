@@ -3,3 +3,7 @@ node_modules
 
 # Local Netlify folder
 .netlify
+
+# IDE
+.vscode
+.idea

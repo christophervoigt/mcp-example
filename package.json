@@ -1,17 +1,20 @@
 {
-    "name": "netlify-example-express-mcp",
-    "version": "1.0.0",
-    "description": "A site to show a MCP example using Netlify Functions and Express",
-    "author": "Netlify",
-    "type": "module",
-    "license": "ISC",
-    "dependencies": {
-        "@modelcontextprotocol/sdk": "^1.10.2",
-        "@netlify/functions": "^2.5.1",
-        "@types/express": "^5.0.1",
-        "express": "^5.1.0",
-        "fetch-to-node": "^2.0.0",
-        "serverless-http": "^3.2.0",
-        "zod": "^3.24.3"
-    }
+	"name": "netlify-example-express-mcp",
+	"version": "1.0.0",
+	"description": "A site to show a MCP example using Netlify Functions and Express",
+	"author": "Netlify",
+	"type": "module",
+	"license": "ISC",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.20.1",
+		"@netlify/functions": "^5.0.0",
+		"@types/express": "^5.0.3",
+		"express": "^5.1.0",
+		"fetch-to-node": "^2.1.0",
+		"serverless-http": "^4.0.0",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"prettier": "3.6.2"
+	}
 }
